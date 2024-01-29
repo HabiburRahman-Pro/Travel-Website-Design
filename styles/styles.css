@@ -452,6 +452,72 @@
                position: absolute;
                transform: rotate(-20deg);
            }
+           /* Footer section style */
+           
+           .footer-logo {
+               width: 40px;
+               height: 45px;
+           }
+           
+           .footer-title {
+               padding-left: 15px;
+               font-family: Mulish;
+               font-size: 32px;
+               font-weight: 800;
+           }
+           
+           .footer-container {
+               display: flex;
+               justify-content: center;
+               align-items: center;
+           }
+           
+           .footer-paragraph {
+               color: #5A5A5D;
+               text-align: center;
+               font-family: Mulish;
+               font-size: 14px;
+               font-weight: 400;
+               line-height: 24px;
+               /* 171.429% */
+               margin: 0px 135px;
+           }
+           
+           .media-link ul {
+               justify-content: center;
+               align-items: center;
+               display: flex;
+               gap: 30px;
+           }
+           
+           .media-link ul>li {
+               list-style: none;
+           }
+           
+           .media-link img {
+               width: 30px;
+               height: 30px;
+           }
+           
+           .footer-section {
+               background: rgba(19, 19, 24, 0.05);
+           }
+           
+           .hr-line {
+               margin: 0 135px;
+               border: 1px solid rgba(107, 95, 95, 0.116)
+           }
+           
+           .copyright-text {
+               padding: 10px 0px 100px 40px;
+               color: rgba(19, 19, 24, 0.70);
+               font-family: Mulish;
+               font-size: 16px;
+               font-weight: 400;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+           }
            
            @media screen and (max-width: 576px) {
                /* Navbar section; */
